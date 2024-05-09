@@ -1,0 +1,265 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: whitesmoke;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    
+
+}
+.navbar{
+    width:100vw;
+    height: 80px;
+    background-color: whitesmoke;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+    text-decoration: none;
+    background-color:whitesmoke;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;;
+
+}
+h1{
+    color: black;
+}
+
+ ul li{
+    color: black;
+    display: inline-block;
+    border-left: 1px solid black;
+     font-size: 20px;
+     padding: 25px 25px;
+ 
+}
+.title{
+    width: 100vw;
+    height: 110px;
+   font-size: 70px; 
+  text-align: center;
+  padding-top: 20px;
+  border-bottom: 1px solid black;
+}
+.images{
+    width: 100vw;
+    height: 900px;
+    
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.box{
+    width: 20%;
+    height:820PX ;
+    border: 1px solid black;
+
+}
+ .img1{
+    width:100%;
+    height: 75%;
+    background: url('./Images/model.jpg');
+    background-size: cover;
+}
+
+.img2{
+    width:100%;
+    height: 75%;
+    background: url('./Images/model2.jpg');
+    background-size: cover;
+}
+.img3{
+    width:100%;
+    height: 75%;
+    background: url('./Images/model3.jpg');
+    background-size: cover;
+}
+.img4{
+    width:100%;
+    height: 75%;
+    background: url('./Images/model4.jpg');
+    background-size: cover;
+}
+.content{
+    padding: 10px 10px;
+}
+.content p{
+padding-top: 10px;
+}
+.bigimg{
+    width: 80%;
+    height: 700px;
+    border: 1px solid black;
+    margin-left:  170px;
+    display: flex;
+   align-items: center;
+}
+.bimg{
+   min-width: 50%;
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.9)), url('./Images/model6.jpg');
+   background-position: center;
+   background-size: cover;
+}
+.contentimg{
+       padding: 30px;
+       align-items: center;
+}
+.contentimg h1{
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+.contentimg p{
+  
+    padding: 20px 10px;
+    text-align: center
+}
+button{
+   margin-left: 40%;
+   padding: 20px;
+   border-radius: 5px;
+   background-color: black;
+   color: whitesmoke;
+}
+.personal{
+    margin-top: 100px;
+    width: 100vw;
+     height: 150px;
+    border-top: 1px solid black;
+    border-bottom:1px solid black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+.cloths{
+    width: 100vw;
+    height: 40%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cbox{
+    width: 17%;
+    height: 70%;
+    
+
+}
+.cbox1{
+    background-image: url('./Images/cimg1.jpg');
+    background-size: cover;
+}
+.cbox2{
+    background-image: url('./Images/cimg2.jpg');
+    background-size: cover;
+}
+.cbox3{
+    background-image: url('./Images/cimg3.jpg');
+    background-size: cover;
+}
+.cbox4{
+    background-image: url('./Images/cimg4.jpg');
+    background-size: cover;
+}
+.cbox5{
+    background-image: url('./Images/cimg5.jpg');
+    background-size: cover;
+}
+.personal2{
+    margin-top: 100px;
+    width: 100vw;
+     height: 150px;
+    border-top: 1px solid black;
+    border-bottom:1px solid black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+.shop{
+    width: 80%;
+    height: 600px;
+    border: 1px solid black;
+    margin-left:  170px;
+    display: flex;
+   align-items: center;
+   margin-top: 70px;
+   background-color:antiquewhite;
+}
+.simg{
+    width: 70%;
+    height: 100%;
+    position: relative;
+    left:30%;
+    background-image: url('./Images/bag.jpg');
+    background-size: cover;
+    
+}
+.itemimg{
+    width: 20%;
+    height: 40%;
+    position: relative;
+    right: 65%;
+    background-image: url('./Images/item.jpg');
+}
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center; /* Optional: center content horizontally */
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between; /* Distribute elements evenly */
+    align-items: center;  /* Vertically align content in the center */
+    margin: 0 auto;
+    width: 80%; /* Adjust width as needed */
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer nav {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer a:hover {
+    color: #666;
+  }
+  
+  
+
+ 
